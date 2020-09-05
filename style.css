@@ -1,0 +1,57 @@
+* html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 15px;
+    max-width: 100%;
+}
+
+.wrapper {
+    max-width: 1315px;
+    margin: 0 auto;
+}
+
+.block-content {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.block {
+    width: calc(70% - 15px);
+    min-height: 150px;
+    background-color: coral;
+    margin-right: 15px;
+}
+
+.block:nth-child(n + 3) {
+    margin-top: 15px;
+}
+
+.block-two {
+    width: 30%;
+    margin-right: 0;
+}
+
+.block-three {
+    width: calc(50% - 15px);
+}
+
+.block-four {
+    width: 50%;
+    margin-right: 0;
+}
+
+.block-five {
+    width: calc(30% - 15px);
+}
+
+.block-six {
+    width: 70%;
+    margin-right: 0;
+}
