@@ -23,14 +23,31 @@ main {
 }
 
 .block {
-    width: calc(70% - 15px);
-    min-height: 150px;
     background-color: coral;
+    min-height: 150px;
     margin-right: 15px;
+}
+
+.block-one {
+    width: calc(70% - 15px);
+
 }
 
 .block:nth-child(n + 3) {
     margin-top: 15px;
+}
+
+
+.block:nth-child(3) {
+    background-color: darkgreen;
+}
+
+.block:nth-child(5) {
+    background-color: blue;
+}
+
+.block:nth-child(8) {
+    background-color: gray;
 }
 
 .block-two {
