@@ -81,3 +81,24 @@ main {
     margin-right: 0;
     width: 33.33%;
 }
+
+
+@media (max-width: 987px) {
+    .wrapper {
+        max-width: 1000px;
+    }
+
+    div.block {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 15px;
+    }
+
+    div.block:first-child {
+        margin-top: 0;
+    }
+
+    .block-seven:last-child {
+        width: 100%;
+    }
+}
