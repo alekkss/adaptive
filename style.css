@@ -78,9 +78,34 @@ main {
     width: calc(33.33% - 15px);
 }
 
-.block-seven:last-child {
+.div.block-seven:last-child {
+    margin-right: 0;
+}
+
+.block:nth-child(9) {
     margin-right: 0;
     width: 33.33%;
+}
+
+.block-eight {
+    width: calc(70% - 15px);
+}
+
+.block-nine {
+    width: 30%;
+    margin-right: 0;
+    background: none;
+}
+
+.block__papper {
+    width: 100%;
+    margin-bottom: 15px;
+    min-height: 150px;
+    background-color: blue;
+}
+
+.block__papper:last-child {
+    margin-bottom: 0;
 }
 
 
@@ -99,7 +124,9 @@ main {
         margin-top: 0;
     }
 
-    .block-seven:last-child {
+    .block:nth-child(9) {
         width: 100%;
     }
+
+
 }
